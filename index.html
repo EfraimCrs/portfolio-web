@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+</head>
+
+<body class="bg-black text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Web Developer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row flex-column flex-md-row align-items-center img-text">
+            <!-- Coluna do texto -->
+            <div class="text_titulo col-md-6 text-center text-md-start " data-aos="fade-left">
+                <h2 class="text_efeito">Developer Front-end</h2>
+                <h3>Construindo o Futuro com Códigos</h3>
+                <p class="paragrafo lead">Um passo hoje, infinitas conquistas amanhã.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Quem sou eu-->
+    <section id="sobre" class="py-5 text-light sobre-mim" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4 text-quem">Quem sou eu !</h2>
+            <div class="row align-items-center">
+                <!-- Foto -->
+                 <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="assets/img-perfil/img-sobre-mim-1.jpg" alt="Minha foto" class="img-fluid rounded-4 shadow" style="max-width: 250px;">
+                 </div>
+
+                 <!--Texto-->
+                 <div class="col-md-8">
+                    <p class="lead text-p-sobre-mim">
+                        Olá! Meu nome é <strong class="text-strong-1">Efraim Silva</strong>, tenho 24 anos e sou um desenvolvedor Front-end apaixonado por tecnologia.
+                        Atualmente estou cursando <strong class="text-strong-2">Análise e Desenvolvimento de Sistemas</strong> na Uniasselvi, e estou sempre buscando aprimorar minhas habilidades e conhecimentos.</p>
+                    <p class="lead text-p-sobre-mim">
+                        Me especializo na criação de interfaces modernas, responsivas e acessíveis, utilizando tecnologias como
+                        <strong>HTML, CSS, JavaScript e Bootstrap</strong>. Futuramente pretendo me
+                        aprofundar em Inteligência Artificial.
+                    </p>
+                    <p class="lead text-p-sobre-mim">
+                        Sou movido por curiosidade, disciplina e criatividade. Acredito que cada linha de código pode mudar o mundo, e estou
+                        aqui para fazer parte dessa transformação.
+                    </p>
+                    <!-- Botão para baixar currículo -->
+                    <a href="assets/curriculo/EfraimCrs-currículo.pdf" download class="btn btn-outline-light mt-3">
+                        <i class="fas fa-download me-2"></i> Baixar Currículo
+                    </a>
+                 </div>
+            </div>
+            <!-- Tecnologias -->
+            <h4 class="text-center mt-5">Tecnologias que utilizo</h4>
+            <div class="row justify-content-center mt-4 g-5">
+                <div class="col-6 col-md-3">
+                    <div class="text-center border-0 shadow-sm p-3 h-100 tech-card">
+                        <i class="fab fa-html5 fa-3x text-danger mb-2"></i>
+                        <h6 class="mb-0">HTML5</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center border-0 shadow-sm p-3 h-100 tech-card">
+                        <i class="fab fa-css3-alt fa-3x text-primary mb-2"></i>
+                        <h6 class="mb-0">CSS3</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center border-0 shadow-sm p-3 h-100 tech-card">
+                        <i class="fab fa-js fa-3x text-warning mb-2"></i>
+                        <h6 class="mb-0">JavaScript</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center border-0 shadow-sm p-3 h-100 tech-card">
+                        <i class="fab fa-bootstrap fa-3x text-purple mb-2"></i>
+                        <h6 class="mb-0">Bootstrap</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos" class="py-5 " data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5 text-projetos">Meus Projetos</h2>
+    
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="assets/img-projetos/spotfy-600x501.png" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Imersão Spotify</h5>
+                            <p class="card-text">Uma interface inspirada no Spotify, criada durante a Imersão Front-end da Alura. O projeto foca em layout responsivo,
+                            organização visual e interatividade com HTML e CSS, simulando a experiência da página inicial do Spotify.
+                            </p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="https://efraimcrs.github.io/spotify-imersao-alura/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                <a href="https://github.com/EfraimCrs/spotify-imersao-alura" target="_blank"class="btn btn-sm btn-outline-dark">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="assets/img-projetos/wavecast-600x501.png" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">WaveCast</h5>
+                            <p class="card-text">Projeto desenvolvido com foco em design moderno e interface limpa para um player de podcast fictício. Utiliza HTML, CSS e JavaScript para apresentar um layout responsivo, interativo e intuitivo, com destaque para a organização de
+                            componentes e estilo visual inspirado em plataformas de streaming</p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="https://efraimcrs.github.io/WaveCast/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                <a href="https://github.com/EfraimCrs/WaveCast" target="_blank"class="btn btn-sm btn-outline-dark">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="assets/img-projetos/luzecena-600x501.png" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Luz e Cena</h5>
+                            <p class="card-text">Página temática inspirada no universo do teatro, desenvolvida durante a Imersão Alura. O foco foi aplicar conceitos de
+                            HTML e CSS para criar uma experiência visual imersiva, com tipografia expressiva, boas práticas de layout e
+                            responsividade para diferentes telas.</p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="https://efraimcrs.github.io/projeto-luz-e-cena-alura/" target="_blank" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                <a href="https://github.com/EfraimCrs/projeto-luz-e-cena-alura" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="assets/img-projetos/usedev-600x501.png" class="card-img-top" alt="Projeto 4">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Use Dev</h5>
+                            <p class="card-text">Um projeto moderno com visual inspirado em uma agência de tecnologia. Criado com HTML e CSS, o layout é totalmente
+                            responsivo e destaca seções bem definidas, botões interativos e uma paleta de cores agradável. Ideal para demonstrar
+                            habilidades com design e estruturação de páginas web profissionais.</p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="https://efraimcrs.github.io/Use-Dev/" target="_blank" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                <a href="https://github.com/EfraimCrs/Use-Dev" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="assets/img-projetos/meteora-600x501.png" class="card-img-top" alt="Projeto 4">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Meteora</h5>
+                            <p class="card-text">Página desenvolvida com HTML, CSS e Bootstrap, inspirada em uma loja virtual de moda e tecnologia. O layout é responsivo e traz componentes como carrossel, cards de produtos e navegação clara. Ideal para treinar o uso de classes utilitárias
+                            e grid do Bootstrap 5.</p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="https://efraimcrs.github.io/Meteora/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                <a href="https://github.com/EfraimCrs/Meteora" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section id="redes" class="py-5 " data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="mb-4 text-redes-sociais">Minhas Redes Sociais</h2>
+            <p class="mb-4 paragrafo-redes">Acompanhe meu trabalho, compartilhe ideias e vamos nos conectar!</p>
+            <div class="d-flex justify-content-center gap-4 flex-wrap">
+    
+                <a href="https://www.linkedin.com/in/efraim-crs-2ab133331/" target="_blank"class="text-decoration-none text-primary fs-1">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+    
+                <a href="https://github.com/EfraimCrs" target="_blank" class="text-decoration-none text-dark fs-1">
+                    <i class="fab fa-github"></i>
+                </a>
+    
+                <a href="https://www.instagram.com/efraim_crs/?next=%2F" target="_blank" class="text-decoration-none text-danger fs-1">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+                <a href="#" class="text-decoration-none text-secondary fs-1">
+                    <i class="fas fa-envelope"></i>
+                </a>
+    
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="py-5 text-white" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="mb-4">Entre em Contato</h2>
+            <p class="mb-3">Quer trocar uma ideia ou falar sobre projetos? Me chama no Instagram!</p>
+    
+            <a href="https://www.instagram.com/efraim_crs/?next=%2F" target="_blank" class="btn btn-outline-light btn-lg btn-insta">
+                <i class="fab fa-instagram me-2"></i> @efraim_crs
+            </a>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">© <span id="ano-atual"></span> EfraimCrs | Todos os direitos reservados.</p>
+            <p class="small mb-0">Feito com 💙 por EfraimCrs</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("ano-atual").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
