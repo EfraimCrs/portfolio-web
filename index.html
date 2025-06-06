@@ -61,8 +61,8 @@
                         Atualmente estou cursando <strong class="text-strong-2">Análise e Desenvolvimento de Sistemas</strong> na Uniasselvi, e estou sempre buscando aprimorar minhas habilidades e conhecimentos.</p>
                     <p class="lead text-p-sobre-mim">
                         Me especializo na criação de interfaces modernas, responsivas e acessíveis, utilizando tecnologias como
-                        <strong>HTML, CSS, JavaScript e Bootstrap</strong>. Futuramente pretendo me
-                        aprofundar em Inteligência Artificial.
+                        <strong class="color-html">HTML</strong>, <strong class="color-css">CSS</strong>, <strong class="color-java">JavaScript</strong> e <strong class="color-bootstrap">Bootstrap</strong>. Futuramente pretendo me
+                        aprofundar em <strong class="color-flutter">Flutter</strong> criação de app mobile.
                     </p>
                     <p class="lead text-p-sobre-mim">
                         Sou movido por curiosidade, disciplina e criatividade. Acredito que cada linha de código pode mudar o mundo, e estou
@@ -104,94 +104,142 @@
             </div>
         </div>
     </section>
-    <section id="projetos" class="py-5 " data-aos="fade-up">
+
+    <section id="projetos" class="py-5" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center mb-5 text-projetos">Meus Projetos</h2>
     
-            <div class="row g-4">
-                <!-- Projeto 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/img-projetos/spotfy-600x501.png" class="card-img-top" alt="Projeto 1">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Imersão Spotify</h5>
-                            <p class="card-text">Uma interface inspirada no Spotify, criada durante a Imersão Front-end da Alura. O projeto foca em layout responsivo,
-                            organização visual e interatividade com HTML e CSS, simulando a experiência da página inicial do Spotify.
-                            </p>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a href="https://efraimcrs.github.io/spotify-imersao-alura/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
-                                <a href="https://github.com/EfraimCrs/spotify-imersao-alura" target="_blank"class="btn btn-sm btn-outline-dark">Ver Código</a>
+            <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+    
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <!-- Projeto 1 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/spotfy-600x501.png" class="card-img-top" alt="Projeto 1">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Imersão Spotify</h5>
+                                        <p class="card-text">Interface inspirada no Spotify, com layout responsivo em HTML e
+                                            CSS.</p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/spotify-imersao-alura/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/spotify-imersao-alura" target="_blank"
+                                                class="btn btn-sm btn-outline-dark">Ver Código</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <!-- Projeto 2 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/wavecast-600x501.png" class="card-img-top"
+                                        alt="Projeto 2">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">WaveCast</h5>
+                                        <p class="card-text">Design moderno de um player de podcast fictício, com HTML, CSS
+                                            e JS.</p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/WaveCast/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/WaveCast" target="_blank"
+                                                class="btn btn-sm btn-outline-dark">Ver Código</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <!-- Projeto 3 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/luzecena-600x501.png" class="card-img-top"
+                                        alt="Projeto 3">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Luz e Cena</h5>
+                                        <p class="card-text">Página teatral com HTML e CSS, foco em tipografia e
+                                            responsividade.</p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/projeto-luz-e-cena-alura/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/projeto-luz-e-cena-alura" target="_blank"
+                                                class="btn btn-sm btn-outline-dark">Ver Código</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+    
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <!-- Projeto 4 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/usedev-600x501.png" class="card-img-top" alt="Projeto 4">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Use Dev</h5>
+                                        <p class="card-text">Site com visual de agência tech, responsivo com HTML e CSS.</p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/Use-Dev/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/Use-Dev" target="_blank"
+                                                class="btn btn-sm btn-outline-dark">Ver Código</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <!-- Projeto 5 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/meteora-600x501.png" class="card-img-top" alt="Projeto 5">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Meteora</h5>
+                                        <p class="card-text">Loja virtual com Bootstrap 5, cards de produtos e carrossel.
+                                        </p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/Meteora/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/Meteora" target="_blank"
+                                                class="btn btn-sm btn-outline-dark">Ver Código</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Projeto 6 -->
+                                <div class="card h-100 shadow-sm border-0">
+                                    <img src="assets/img-projetos/monibank-600x501.png" class="card-img-top" alt="Projeto 5">
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">MoniBank</h5>
+                                        <p class="card-text">Interface de app bancário com foco em login moderno e simulação de reconhecimento facial.
+                                        </p>
+                                        <div class="mt-auto d-flex justify-content-between">
+                                            <a href="https://efraimcrs.github.io/monibank/" target="_blank"
+                                                class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                                            <a href="https://github.com/EfraimCrs/monibank" target="_blank" class="btn btn-sm btn-outline-dark">Ver
+                                                Código</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
                 </div>
     
-                <!-- Projeto 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/img-projetos/wavecast-600x501.png" class="card-img-top" alt="Projeto 2">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">WaveCast</h5>
-                            <p class="card-text">Projeto desenvolvido com foco em design moderno e interface limpa para um player de podcast fictício. Utiliza HTML, CSS e JavaScript para apresentar um layout responsivo, interativo e intuitivo, com destaque para a organização de
-                            componentes e estilo visual inspirado em plataformas de streaming</p>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a href="https://efraimcrs.github.io/WaveCast/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
-                                <a href="https://github.com/EfraimCrs/WaveCast" target="_blank"class="btn btn-sm btn-outline-dark">Ver Código</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Projeto 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/img-projetos/luzecena-600x501.png" class="card-img-top" alt="Projeto 3">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Luz e Cena</h5>
-                            <p class="card-text">Página temática inspirada no universo do teatro, desenvolvida durante a Imersão Alura. O foco foi aplicar conceitos de
-                            HTML e CSS para criar uma experiência visual imersiva, com tipografia expressiva, boas práticas de layout e
-                            responsividade para diferentes telas.</p>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a href="https://efraimcrs.github.io/projeto-luz-e-cena-alura/" target="_blank" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
-                                <a href="https://github.com/EfraimCrs/projeto-luz-e-cena-alura" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projeto 4 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/img-projetos/usedev-600x501.png" class="card-img-top" alt="Projeto 4">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Use Dev</h5>
-                            <p class="card-text">Um projeto moderno com visual inspirado em uma agência de tecnologia. Criado com HTML e CSS, o layout é totalmente
-                            responsivo e destaca seções bem definidas, botões interativos e uma paleta de cores agradável. Ideal para demonstrar
-                            habilidades com design e estruturação de páginas web profissionais.</p>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a href="https://efraimcrs.github.io/Use-Dev/" target="_blank" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
-                                <a href="https://github.com/EfraimCrs/Use-Dev" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Projeto 5 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/img-projetos/meteora-600x501.png" class="card-img-top" alt="Projeto 4">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Meteora</h5>
-                            <p class="card-text">Página desenvolvida com HTML, CSS e Bootstrap, inspirada em uma loja virtual de moda e tecnologia. O layout é responsivo e traz componentes como carrossel, cards de produtos e navegação clara. Ideal para treinar o uso de classes utilitárias
-                            e grid do Bootstrap 5.</p>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a href="https://efraimcrs.github.io/Meteora/" target="_blank"class="btn btn-sm btn-outline-primary">Ver Projeto</a>
-                                <a href="https://github.com/EfraimCrs/Meteora" target="_blank" class="btn btn-sm btn-outline-dark">Ver Código</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+                <!-- Controles de navegação -->
+                <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>-->
             </div>
         </div>
     </section>
@@ -225,15 +273,15 @@
             <h2 class="mb-4">Entre em Contato</h2>
             <p class="mb-3">Quer trocar uma ideia ou falar sobre projetos? Me chama no Instagram!</p>
     
-            <a href="https://www.instagram.com/efraim_crs/?next=%2F" target="_blank" class="btn btn-outline-light btn-lg btn-insta">
-                <i class="fab fa-instagram me-2"></i> @efraim_crs
+            <a href="https://www.instagram.com/developerefraim/" target="_blank" class="btn btn-outline-light btn-lg btn-insta">
+                <i class="fab fa-instagram me-2"></i> @developerefraim
             </a>
         </div>
     </section>
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
             <p class="mb-2">© <span id="ano-atual"></span> EfraimCrs | Todos os direitos reservados.</p>
-            <p class="small mb-0">Feito com 💙 por EfraimCrs</p>
+            <p class="small mb-0">Desenvolvido por EfraimCrs</p>
         </div>
     </footer>
     <script>

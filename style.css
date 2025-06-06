@@ -35,6 +35,23 @@ body {
     animation: animarTexto 10s ease infinite;
     cursor: pointer;
 }
+/*cor nomes das tech's*/
+.color-html {
+    color: #E34F26;
+}
+.color-css {
+    color: #1572B6;
+}
+.color-java {
+    color: #F7DF1E;
+}
+.color-bootstrap {
+    color: #7952B3;
+}
+.color-flutter {
+    color: #42A5F5;
+}
+
 .paragrafo {
     color: #1aff00;
 }
